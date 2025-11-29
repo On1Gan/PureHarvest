@@ -1,8 +1,16 @@
-//
-//  DeliveryView.swift
-//  ОрехиСпеции
-//
-//  Created by Aleksandr Gorohov on 29.11.25.
-//
+import SwiftUI
 
-import Foundation
+struct DeliveryView: View {
+    var body: some View {
+        NavigationStack {
+            Text("Дастаўка")
+                .font(.largeTitle)
+                .bold()
+        }
+        .navigationTitle("Дастаўка")
+    }
+}
+
+#Preview {
+    DeliveryView()
+}
