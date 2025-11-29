@@ -1,0 +1,4 @@
+Кликни правой кнопкой на папку Entities
+Выбери New File...
+Выбери Swift File → Next
+Назови Product.swift → Create
